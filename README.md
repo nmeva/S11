@@ -1,8 +1,6 @@
-# Session 11 - Super Convergence
+# S11
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lPQdBm6-O0b02by9pO-ns5nsEIG3G7tL)
-
-The model reaches a maximum accuracy of **92.26%** on CIFAR-10 using **One Cycle Policy for Learning Rate**.
+The model reaches a maximum accuracy of **92.26%**
 
 ### Parameters and Hyperparameters
 
@@ -31,26 +29,3 @@ The following data augmentation techniques were applied to the dataset during tr
 - Flip LR
 - CutOut
 
-## Change in Training and Validation Accuracy
-
-<img src="images/accuracy_change.png" width="450px">
-
-## Cyclic LR Triangular Schedule
-
-<img src="images/clr_plot.png">
-
-## Project Setup
-
-### On Local System
-
-Install the required packages  
- `$ pip install -r requirements.txt`
-
-### On Google Colab
-
-Upload the files in the root folder and select Python 3 as the runtime type and GPU as the harware accelerator.
-
-## Group Members
-
-- Rakhee (Canvas ID: 25180625)
-- Shantanu Acharya (Canvas ID: 25180630)
